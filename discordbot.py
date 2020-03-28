@@ -12,9 +12,11 @@ async def on_command_error(ctx, error):
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
 
-@bot.command()
+@bot.commands
 async def chinato(ctx):
     await ctx.send('私はチナトです。')
+
+@bot.commands
 async def sakebu(ctx):
     await ctx.send('うわああああああああああPythonわけわかめええええええええええええええ')
 
