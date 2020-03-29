@@ -5,7 +5,7 @@ import traceback
 
 #bot = commands.Bot(command_prefix='/')
 client = discord.Client()
-token = os.environ['DISCORD_BOT_TOKEN']
+token = 'NjkzNDYwNjc1ODg3ODkwNDgy.Xn91Qg.4ktdCrdwz4aDL7PChqLD78X9AmA'
 
 #@bot.command()
 #async def chinato(ctx):
