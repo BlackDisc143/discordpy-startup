@@ -15,5 +15,9 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def chinato(ctx):
     await ctx.send('私はチナトです。')
+    
+@bot.command()
+async def sakebu(ctx):
+    await ctx.send('Pythonわかんないいいいいいいいいいいいいいいいいいいいいいいいいいいいいい')
 
 bot.run(token)
