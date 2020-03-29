@@ -5,6 +5,10 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
+@bot.event
+async def on_ready():
+    await ctx.send('起動を確認したよ')
+
 @bot.command()
 async def chinato(ctx):
     await ctx.send('私はチナトです。')
