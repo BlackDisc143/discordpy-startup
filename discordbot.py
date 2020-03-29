@@ -12,5 +12,10 @@ async def chinato(ctx):
 @bot.command()
 async def sakebu(ctx):
     await ctx.send('Pythonわかんないいいいいいいいいいいいいいいいいいいいいいいいいいいいいい')
+    
+@bot.event
+async def on_message(message):
+    if message == 'hoge':
+        await ctx.send('hage')
 
 bot.run(token)
