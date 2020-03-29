@@ -19,7 +19,7 @@ token = os.environ['DISCORD_BOT_TOKEN']
 
 @client.event
 async def on_message(message):
-    if message.content == '/chinato'
+    if message.content == '/chinato':
         if client.user != message.author:
             await message.channel.send('チナトです。')
 
